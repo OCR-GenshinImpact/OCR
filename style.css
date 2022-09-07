@@ -1,5 +1,5 @@
 #fileInput{
-    height: 100%;width:100%;background:url(./ボタン.jpg) center center / contain no-repeat;display:inline-block;cursor: pointer;
+    background:url(./ボタン.jpg) center center / contain no-repeat auto;display:inline-block;cursor: pointer;
 }
 #fileInput input{
     display: none;
