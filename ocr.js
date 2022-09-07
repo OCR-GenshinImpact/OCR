@@ -9,7 +9,7 @@ function resize(file){
   imageToCanvas(file).then(function(canvas){
     Tesseract.recognize(
       canvas,
-      'jpn',
+      'jpn + eng',
       { logger: m=> console.log(m) }
     ).then(({ data: { text } }) => {
       const out = document.getElementById('output');
